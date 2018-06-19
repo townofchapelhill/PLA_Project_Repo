@@ -9,7 +9,9 @@ import os
 # # Imports Addresses coming from a csv to be randomize over 47.000 addresses
 def PandasExporting():
     csvfile = '/Users/HardyLewis/Desktop/PLA Work Folder/PLA_Project_Repo/addresses.csv'
-    pandasread = pd.read_csv(csvfile,delimiter=';',index_col=11)
+    pandasread = pd.read_csv(csvfile,delimiter=';')
+    #Keywords = []
+    print(pandasread)
     #usablenums = []
     #randonAddresses = []
     #for column in pandasread:
